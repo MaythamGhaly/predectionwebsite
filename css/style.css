@@ -18,3 +18,7 @@ button{
     margin: 15px;
     height: 35px;
 }
+.dogimg{
+    display: none;
+    text-align: center;
+}
