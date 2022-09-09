@@ -1,5 +1,20 @@
 /* css fie for the predection website */
-
+body{
+    background-color: rgba(32, 32, 128, 0.603);
+}
 h1 {
     text-align: center;
+}
+.username{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin: 15px;
+    width: 20%;
+    height: 30px;
+}
+button{
+    margin: 15px;
+    height: 35px;
 }
