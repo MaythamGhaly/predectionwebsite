@@ -2,7 +2,7 @@
 body{
     background-color: rgba(32, 32, 128, 0.603);
 }
-h1 {
+h1 , h4 {
     text-align: center;
 }
 .username{
@@ -18,7 +18,11 @@ button{
     margin: 15px;
     height: 35px;
 }
+.informations{
+    display: flex;
+    margin: auto;
+}
 .dogimg{
-    display: none;
+    
     text-align: center;
 }
