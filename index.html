@@ -6,35 +6,33 @@
         <script src="./javascript/javascript.js" type="text/javascript"></script>
     </head> 
 
-<body>
-    <div class="flex">
-    <div class="image" id="dogimg">
-        
-    </div>
-    <div>
-    <h1>Welcome to the predection website</h1>
-    <div class="flex">
-    <h3>Enter your name: </h3>
-    <input type="text" id="name" name="fname" value="Mickey">
-    <button id="submit">submit</button>
-    </div>
-    <div class="informations" id="info">
+    <body>
         <div class="flex">
-            <p>Gender:</p>
-            <h5 id="gender"></h5>
+            <div class="image" id="dogimg"></div> <!--Creat a div for put the dog image from js -->
+            <div>
+                <!--Creat the title and the input box -->
+                <h1>Welcome to the predection website</h1>
+                <div class="flex">
+                <h3>Enter your name: </h3>
+                <input type="text" id="name" name="fname" value="">
+                <button id="submit">submit</button>
+                </div>
+                <!--Creat a div display none for the informations -->
+                <div class="informations" id="info">  
+                    <div class="flex">
+                       <p>Gender:</p>
+                       <h5 id="gender"></h5>
+                    </div>
+                    <div class="flex">
+                       <p>Age:</p>
+                       <h5 id="age"></h5>
+                    </div>
+                    <div class="flex">
+                       <p>Nationality:</p>
+                       <h5 id="nationality"></h5>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="flex">
-            <p>Age:</p>
-            <h5 id="age"></h5>
-        </div>
-        <div class="flex">
-            <p>Nationality:</p>
-            <h5 id="nationality"></h5>
-        </div>
-        
-    </div>
-    </div>
-    </div>
-</body>
-
+    </body>
 </html>

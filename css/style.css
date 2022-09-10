@@ -30,8 +30,7 @@ button{
 }
 .informations{
     display: none;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 .image{
     display: block; 
