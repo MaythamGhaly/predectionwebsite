@@ -28,7 +28,7 @@ button{
     height: 35px;
 }
 .informations{
-    display: flex;
+    display: none;
     justify-content: center;
     
 }

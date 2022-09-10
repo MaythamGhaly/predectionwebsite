@@ -10,29 +10,28 @@ window.onload = () => {
         .then(data=> {
           arr.push(data.gender)
           const gender=document.getElementById("gender").innerHTML=data.gender
-          console.log(arr[0])
         })
         fetch(`https://api.agify.io/?name=${name}`)
         .then(res=>res.json())
         .then(data=> {
           arr.push(data.age)
-          console.log(arr[1])
+          const gender=document.getElementById("age").innerHTML=data.age
         })
         fetch(`https://api.nationalize.io/?name=${name}`)
         .then(res=>res.json())
         .then(data=> {
           arr.push(data.country[0].country_id)
           arr.push(data.country[1].country_id)
-          console.log(arr[2],arr[3])
+          
+          const gender=document.getElementById("nationality").innerHTML=(data.country[0].country_id +" / "+ data.country[1].country_id)
           });
         fetch(`https://dog.ceo/api/breeds/image/random`)
         .then(res=>res.json())
         .then(data=> {
-          dogimg.style.display="block"
-          dogimg.innerHTML=`<img src="${data.message}"/>`
+          document.getElementById("dogimg").innerHTML=`<img src="${data.message}"/>`
           });
 
-        
+        document.getElementById("info").style.display="block"
           
           
       
