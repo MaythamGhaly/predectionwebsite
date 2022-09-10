@@ -16,6 +16,7 @@ h5{
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 input{
@@ -32,7 +33,10 @@ button{
     justify-content: center;
     
 }
-.dogimg{
-    
-    text-align: center;
+.image{
+    display: block; 
+    width: 30%;
+}
+.img{
+    width: 90%;
 }
